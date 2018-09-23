@@ -6,7 +6,7 @@ import { View } from 'react-native';
 
 export default class HeaderSearchBar extends Component {
   handleChange = (val) => {
-    console.log("Value is coming:",val);
+    this.props.handleChange(val);
   }
   render() {
     return (
@@ -14,7 +14,7 @@ export default class HeaderSearchBar extends Component {
         <SearchBar
           noIcon
           onChangeText = {this.handleChange}
-          placeholder='Type Here Somethings...' />
+          placeholder='Filter Here ...' />
       </View>
     )
   }
