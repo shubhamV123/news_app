@@ -12,7 +12,7 @@ class CommanFunction{
     filterCard(arr,keyWord){
          keyWord = keyWord!==null?keyWord.toLowerCase():null;
         let newArray = arr.filter(data => {
-            if(data.sectionId.search(keyWord)>=0 || data.fields.bodyText.substr(0,95).search(keyWord)>=0 || data.webTitle.search(keyWord) >= 0){
+            if(data.sectionId.toLowerCase().search(keyWord)>=0 || data.fields.bodyText.substr(0,95).toLowerCase().search(keyWord)>=0|| data.webTitle.toLowerCase().search(keyWord)>=0){
                 return true;
             }
         })
