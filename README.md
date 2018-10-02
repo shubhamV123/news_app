@@ -3,7 +3,7 @@
 
 ## Getting Started
 
-A new app made using react-native. It has feature like infinte scroll view,filteration in news.
+A new app made using react-native. It has feature like infinte scroll view,filteration in news.[Demo(Screenshots&video)](https://drive.google.com/drive/folders/11hOncUis93WtI4Ejh7xyCqAG35YnVehv)
 ### Prerequisites
 
 For running this app you need to have some knowledge in react,react-native and javascript.
